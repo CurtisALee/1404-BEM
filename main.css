@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6rem;
+  padding: 6rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: #0f172a;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #0ea5e9;
+  padding: 2rem 2.5rem;
+  border-radius: 0.8rem;
+  transition: background-color 0.25s;
+}
+.button:hover {
+  background-color: #0d94d1;
+}
+.button--secondary {
+  background-color: #fff;
+  border: 0.3rem solid #e2e8f0;
+  color: #1e3a8a;
+}
+.button--secondary:hover {
+  background-color: #f2f2f2;
+}
+.button--tertiary {
+  background-color: #9333ea;
+}
+.button--tertiary:hover {
+  background-color: #871ce8;
+}
+
+.icon-button {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #ea580c;
+  padding: 2rem 2.5rem;
+  border-radius: 0.8rem;
+  transition: background-color 0.25s;
+}
+.icon-button:hover {
+  background-color: #d24f0b;
+}
+.icon-button__inner {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.icon-button--green {
+  background-color: #16a34a;
+}
+.icon-button--green:hover {
+  background-color: #138d40;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,92 @@
+// Reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// DOM elements
+html {
+  font-size: 62.5%; // 62.5% of 16px browser font size is 10px
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+// Content
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6rem;
+  padding: 6rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: #0f172a;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #0ea5e9;
+  padding: 2rem 2.5rem;
+  border-radius: 0.8rem;
+  transition: background-color 0.25s;
+
+  &:hover {
+    background-color: darken(#0ea5e9, 5%);
+  }
+
+  &--secondary {
+    background-color: #fff;
+    border: 0.3rem solid #e2e8f0;
+    color: #1e3a8a;
+
+    &:hover {
+      background-color: darken(#fff, 5%);
+    }
+  }
+
+  &--tertiary {
+    background-color: #9333ea;
+
+    &:hover {
+      background-color: darken(#9333ea, 5%);
+    }
+  }
+}
+
+.icon-button {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #ea580c;
+  padding: 2rem 2.5rem;
+  border-radius: 0.8rem;
+  transition: background-color 0.25s;
+
+  &:hover {
+    background-color: darken(#ea580c, 5%);
+  }
+
+  &__inner {
+    display: flex; // <a/> tags are inline by default anyway, but this is just to centre the text and icon :)
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  &--green {
+    background-color: #16a34a;
+
+    &:hover {
+      background-color: darken(#16a34a, 5%);
+    }
+  }
+}
