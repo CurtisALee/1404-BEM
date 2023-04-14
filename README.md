@@ -1,7 +1,9 @@
 # BEM Notes
 
 `Block`: Think of this as the defining block or context of the component (E.g, Button, Card, Banner).
+
 `Element`: This is a child element that is semantically tied to the block component (E.g, Button Icon, Card heading, Banner CTA).
+
 `Modifier`: This is a flag you can put on a block or element to change its appearance while still inheriting styles from the root class (E.g, Button: Secondary, Tertiary, With Icon).
 
 ## Some helpful links
